@@ -13,7 +13,8 @@ h1 {
     line-height: 1;
     font-size: 60px;
     text-transform: uppercase;
-    color: #16a085;
+    color: #EC008C;
+    display: none;
 }
 @media only screen and (min-device-width: 768px) {
 
@@ -24,15 +25,17 @@ h1 {
 
 h2 {
     font-size: 40px;
-    color: #16a085;
+    color: #EC008C;
 }
 
 a, a:hover {
-    color: #16a085;
+    color: #EC008C;
 }
 
 .navbar {
     background-color: #313131;
+    border-radius: 0;
+    border: 0;
 }
 
     .navbar-text {
@@ -60,21 +63,17 @@ section {
 
 /* Welcome */
 
-.welcome img {
-    margin-top: -130px;
-}
-
 .welcome ul li a {
     display: block;
     width: 90px;
     height: 90px;
     line-height: 90px;
     border-radius: 50%;
-    background-color: #16a085;
+    background-color: #EC008C;
     color: #FFF;
 }
 .welcome ul li a:hover {
-    background-color: #1abc9c;
+    background-color: #FF0094;
 }
 
 /* Activities */
@@ -106,21 +105,17 @@ section {
         .activities li:nth-child(1),
         .activities li:nth-child(2),
         .activities li:nth-child(3),
-        .partners li {
+        .partners li:nth-child(1),
+        .partners li:nth-child(2),
+        .partners li:nth-child(3) {
             border-top: 1px solid #F1F1F1;
         }
         .activities li:nth-child(1),
         .activities li:nth-child(4),
-        .partners li:nth-child(1) {
+        .partners li:nth-child(1),
+        .partners li:nth-child(4) {
             border-left: 1px solid #F1F1F1;
         }
-    }
-
-    .partners li {
-        border-top: 1px solid #F1F1F1;
-    }
-    .partners li:nth-child(1) {
-        border-left: 1px solid #F1F1F1;
     }
 
         .activities li span {
@@ -133,7 +128,7 @@ section {
             font-size: 60px;
             background-color: #F1F1F1;
             border-radius: 50%;
-            color: #16a085;
+            color: #EC008C;
         }
 
         .partners img {
@@ -152,13 +147,13 @@ section {
 .subscription .btn {
     padding: 10px 60px;
     border-radius: 0;
-    background-color: #16a085;
+    background-color: #EC008C;
     color: #FFF;
     font-size: 24px;
     text-transform: uppercase;
 }
 .subscription .btn:hover {
-    background-color: #1abc9c;
+    background-color: #FF0094;
 }
 
 /* Footer */

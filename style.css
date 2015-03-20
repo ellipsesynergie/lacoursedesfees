@@ -17,7 +17,6 @@ h1 {
     display: none;
 }
 @media only screen and (min-device-width: 768px) {
-
     h1 {
         font-size: 80px;
     }
@@ -55,6 +54,11 @@ section {
 
         section header p {
             color: #666;
+        }
+
+        section header a.btn:active {
+            -webkit-box-shadow: none;
+            box-shadow: none;
         }
 
     section article p {
@@ -154,6 +158,60 @@ section {
 }
 .subscription .btn:hover {
     background-color: #FF0094;
+}
+
+.subscription table {
+    margin-bottom: 50px;
+    border: 1px solid #F1F1F1;
+}
+
+    .subscription table td {
+        padding-top: 0;
+    }
+    .subscription table tr:first-child td {
+        padding-top: 15px;
+        padding-bottom: 0;
+    }
+    .subscription table tr:last-child td {
+        padding-bottom: 15px;
+    }
+
+        .subscription table td {
+            vertical-align: top;
+            padding-left: 15px;
+        }
+        .subscription table td {
+            text-align: left;
+            padding-right: 15px;
+        }
+        .subscription table td:first-child {
+            text-align: right;
+            color: #EC008C;
+            white-space: nowrap;
+            padding-right: 0;
+        }
+
+            .subscription table td > span {
+                display: none;
+            }
+
+        @media only screen and (max-width: 768px) {
+            .subscription table td {
+                padding-top: 30px;
+            }
+            .subscription table td:first-child {
+                display: none;
+            }
+
+                .subscription table td > span {
+                    display: block;
+                    color: #EC008C;
+                }
+        }
+
+.subscription ul li {
+    text-align: left;
+    list-style-type: circle;
 }
 
 /* Footer */

@@ -117,7 +117,8 @@ section {
         .activities li:nth-child(1),
         .activities li:nth-child(4),
         .partners li:nth-child(1),
-        .partners li:nth-child(4) {
+        .partners li:nth-child(4),
+        .partners li:nth-child(7) {
             border-left: 1px solid #F1F1F1;
         }
     }

@@ -80,6 +80,36 @@ section {
     background-color: #FF0094;
 }
 
+.welcome header > div {
+    padding: 0 150px 0 0;
+}
+.welcome header > div:first-child {
+    padding: 0 0 0 150px;
+}
+
+.welcome .rythmeFM p {
+    margin-top: 110px;
+}
+
+.welcome .rythmeFM img {
+    width: 350px;
+}
+
+@media only screen and (max-width: 992px) {
+    .welcome header > div, .welcome header > div:first-child {
+        padding: 0;
+    }
+
+    .welcome .rythmeFM p {
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+
+    .welcome .rythmeFM img {
+        width: 300px;
+    }
+}
+
 /* Activities */
 
 .activities ul,

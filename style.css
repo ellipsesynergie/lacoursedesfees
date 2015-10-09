@@ -53,7 +53,8 @@ section {
     }
 
         section header p {
-            color: #666;
+            color: #908F8F;
+            font-size: 25px;
         }
 
         section header a.btn:active {
@@ -66,6 +67,10 @@ section {
     }
 
 /* Welcome */
+
+.hide-on-large {
+    display: none;
+}
 
 .welcome ul li a {
     display: block;
@@ -81,17 +86,22 @@ section {
 }
 
 .welcome header > div {
-    padding: 0 150px 0 0;
+    padding-top: 80px
 }
-.welcome header > div:first-child {
-    padding: 0 0 0 150px;
-}
-
-.welcome .rythmeFM p {
-    margin-top: 110px;
+.welcome header > div:nth-of-type(3) {
+    padding-top: 0;
 }
 
-.welcome .rythmeFM img {
+.welcome .collaboration p {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.welcome .collaboration p:first-child {
+    margin-top: 0;
+}
+
+.welcome .collaboration .rythmeFM {
     width: 350px;
 }
 
@@ -112,13 +122,29 @@ h1.edition {
         padding: 0;
     }
 
-    .welcome .rythmeFM p {
+    .welcome .collaboration p {
         margin-top: 50px;
-        margin-bottom: 30px;
+        margin-bottom: 40px;
     }
 
-    .welcome .rythmeFM img {
+    .welcome .collaboration p:first-child {
+        margin-top: 50px;
+    }
+
+    .welcome .collaboration > a:first-child img {
+        margin-top: 30px;
+    }
+
+    .welcome .collaboration .rythmeFM {
         width: 300px;
+    }
+
+    .hide-on-large {
+        display: block;
+    }
+
+    .hide-on-small {
+        display: none;
     }
 }
 

@@ -171,7 +171,7 @@ h1.edition {
 
         .activities li,
         .partners li,
-        .editions li{
+        .editions li {
             margin-bottom: 0;
             padding-top: 60px;
             padding-bottom: 60px;
@@ -184,16 +184,17 @@ h1.edition {
         .partners li:nth-child(1),
         .partners li:nth-child(2),
         .partners li:nth-child(3),
-        .editions li{
+        .editions li {
             border-top: 1px solid #F1F1F1;
         }
         .activities li:nth-child(1),
         .activities li:nth-child(4),
+        .activities li:nth-child(7),
         .partners li:nth-child(1),
         .partners li:nth-child(4),
         .partners li:nth-child(7),
-        .editions li:nth-child(1){
-            border-left: 1px solid #F1F1F1;
+        .editions li:nth-child(1) {
+            border-left: 1px solid #f1f1f1;
         }
 
         h1.edition {
@@ -203,11 +204,12 @@ h1.edition {
     }
 
     @media only screen and (max-width: 768px) {
+
         .partners li {
             float: left;
             width: 50%;
             margin-bottom: 0;
-            border: 1px solid #F1F1F1;
+            border: 1px solid #f1f1f1;
         }
         .partners li:nth-child(even) {
             border-left-color: #fff;
@@ -223,7 +225,7 @@ h1.edition {
 
         .photos li a {
             display: block;
-            background-color: #EC008C;
+            background-color: #ec008c;
         }
 
         .photos li img {
@@ -245,9 +247,9 @@ h1.edition {
             line-height: 120px;
             text-align: center;
             font-size: 60px;
-            background-color: #F1F1F1;
+            background-color: #f1f1f1;
             border-radius: 50%;
-            color: #EC008C;
+            color: #ec008c;
         }
 
         .partners img {
@@ -273,7 +275,7 @@ h1.edition {
 
 .where article div {
     padding: 30px 30px 20px 30px;
-    border: 1px solid #F1F1F1;
+    border: 1px solid #f1f1f1;
 }
 
 /* Subscription */
@@ -281,18 +283,18 @@ h1.edition {
 .subscription .btn {
     padding: 10px 60px;
     border-radius: 0;
-    background-color: #EC008C;
-    color: #FFF;
+    background-color: #ec008c;
+    color: #fff;
     font-size: 24px;
     text-transform: uppercase;
 }
 .subscription .btn:hover {
-    background-color: #FF0094;
+    background-color: #ff0094;
 }
 
 .subscription table {
     margin: 0 auto 50px;
-    border: 1px solid #F1F1F1;
+    border: 1px solid #f1f1f1;
 }
 
     .subscription table td {
@@ -316,7 +318,7 @@ h1.edition {
         }
         .subscription table td:first-child {
             text-align: right;
-            color: #EC008C;
+            color: #ec008c;
             white-space: nowrap;
             padding-right: 0;
         }
@@ -335,7 +337,7 @@ h1.edition {
 
                 .subscription table td > span {
                     display: block;
-                    color: #EC008C;
+                    color: #ec008c;
                 }
         }
 
@@ -349,10 +351,10 @@ h1.edition {
     padding: 6px 15px;
     font-size: 30px;
     color: #fff;
-    background-color: #EC008C;
+    background-color: #ec008c;
 }
 #sound:hover {
-    background-color: #ED77BD;
+    background-color: #ed77bd;
 }
 
     #sound > i {
@@ -361,6 +363,7 @@ h1.edition {
     }
 
 @media only screen and (max-width: 768px) {
+
     #sound {
         font-size: 25px;
     }

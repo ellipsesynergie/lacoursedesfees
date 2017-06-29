@@ -13,7 +13,7 @@ h1 {
     line-height: 1;
     font-size: 60px;
     text-transform: uppercase;
-    color: #EC008C;
+    color: #4CB848;
     display: none;
 }
 @media only screen and (min-device-width: 768px) {
@@ -24,11 +24,11 @@ h1 {
 
 h2 {
     font-size: 40px;
-    color: #EC008C;
+    color: #4CB848;
 }
 
 a, a:hover {
-    color: #EC008C;
+    color: #4CB848;
 }
 
 .navbar {
@@ -78,11 +78,11 @@ section {
     height: 90px;
     line-height: 90px;
     border-radius: 50%;
-    background-color: #EC008C;
+    background-color: #4CB848;
     color: #FFF;
 }
 .welcome ul li a:hover {
-    background-color: #FF0094;
+    background-color: rgba(76,184,72,0.8);
 }
 
 .welcome header > div {
@@ -223,7 +223,7 @@ h1.edition {
 
         .photos li a {
             display: block;
-            background-color: #EC008C;
+            background-color: #4CB848;
         }
 
         .photos li img {
@@ -247,11 +247,12 @@ h1.edition {
             font-size: 60px;
             background-color: #F1F1F1;
             border-radius: 50%;
-            color: #EC008C;
+            color: #4CB848;
         }
 
         .partners img {
             max-width: 100%;
+            max-height: 150px;
         }
 
         .photos img {
@@ -281,13 +282,13 @@ h1.edition {
 .subscription .btn {
     padding: 10px 60px;
     border-radius: 0;
-    background-color: #EC008C;
+    background-color: #4CB848;
     color: #FFF;
     font-size: 24px;
     text-transform: uppercase;
 }
 .subscription .btn:hover {
-    background-color: #FF0094;
+    background-color: rgba(76,184,72,0.8);
 }
 
 .subscription table {
@@ -335,7 +336,7 @@ h1.edition {
 
                 .subscription table td > span {
                     display: block;
-                    color: #EC008C;
+                    color: #4CB848;
                 }
         }
 
@@ -349,10 +350,10 @@ h1.edition {
     padding: 6px 15px;
     font-size: 30px;
     color: #fff;
-    background-color: #EC008C;
+    background-color: #4CB848;
 }
 #sound:hover {
-    background-color: #ED77BD;
+    background-color: #4CB848;
 }
 
     #sound > i {
